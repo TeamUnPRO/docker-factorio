@@ -1,10 +1,6 @@
-FROM ubuntu:14.04
+FROM debian:stable
 
 MAINTAINER Carlo Eugster <carlo@relaun.ch>
-
-RUN  apt-get update \
-  && apt-get install -y wget \
-  && rm -rf /var/lib/apt/lists/*
 
 COPY factorio.tar.gz /tmp/factorio.tar.gz
 
