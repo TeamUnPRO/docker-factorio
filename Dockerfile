@@ -1,6 +1,6 @@
 FROM debian:stable
 
-MAINTAINER Carlo Eugster <carlo@relaun.ch>
+MAINTAINER Mark McGuire <mark.b.mcg@gmail.com>
 
 COPY factorio.tar.gz /tmp/factorio.tar.gz
 
