@@ -1,4 +1,4 @@
-[![](https://badge.imagelayers.io/teamunpro/factorio:latest.svg)](https://imagelayers.io/?images=teamunpro/factorio:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/teamunpro/factorio.svg)](http://microbadger.com/images/teamunpro/factorio "Get your own image badge on microbadger.com")
 
 # Introduction
 
