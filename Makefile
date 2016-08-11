@@ -2,4 +2,4 @@ VERSION = $(shell wget -q -O - "https://www.factorio.com/download-headless/stabl
 
 all:
 	wget -q --no-check-certificate "https://www.factorio.com/get-download/${VERSION}/headless/linux64" -O factorio.tar.gz
-	docker build -t "tronpaul/factorio:${VERSION}" -t tronpaul/factorio:latest .
+	docker build -t "teamunpro/factorio:${VERSION}" -t teamunpro/factorio:latest .

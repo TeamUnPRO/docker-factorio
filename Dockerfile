@@ -10,4 +10,5 @@ RUN  tar -xzf /tmp/factorio.tar.gz -C /opt \
 ADD  init.sh /opt/factorio/
 
 WORKDIR /opt/factorio
+EXPOSE 34197/udp
 CMD ["./init.sh"]
